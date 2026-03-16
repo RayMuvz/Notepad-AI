@@ -14,7 +14,7 @@ Notepad AI is a Windows-style Notepad clone built with **Python** and **PyQt6**,
 - `.LOG` support (first line `.LOG` appends a timestamp when opened)
 - Standard shortcuts: **Ctrl+N**, **Ctrl+O**, **Ctrl+S**, **Ctrl+P**, etc.
 - AI integration (OpenAI `gpt-4o`) on **Shift+Enter**
-- Persistent settings in `%AppData%\Notepad_AI\config.json`
+- Persistent settings in `%AppData%\Notepad AI\config.json`
 - Optional dark mode
 
 ## Requirements
@@ -25,7 +25,7 @@ Notepad AI is a Windows-style Notepad clone built with **Python** and **PyQt6**,
 ## Security & Privacy
 
 - Your **OpenAI API key is never hard-coded** in the app or stored in the repo.
-- The key and basic settings are stored locally in `%AppData%\Notepad_AI\config.json`.
+- The key and basic settings are stored locally in `%AppData%\Notepad AI\config.json`.
 - OpenAI requests include:
   - Your prompts and relevant document text,
   - Previous messages for that tab (chat-style memory).
@@ -34,9 +34,9 @@ Notepad AI is a Windows-style Notepad clone built with **Python** and **PyQt6**,
 
 ## Installation
 
-- Download the latest `Notepad_AI_Installer.exe` from the GitHub Releases page.
+- Download the latest `Notepad AI Installer.exe` from the GitHub Releases page.
 - Run the installer and follow the prompts:
-  - The app installs into `Program Files\Notepad_AI` by default.
+  - The app installs into `Program Files\Notepad AI` by default.
   - A Start Menu entry is added.
   - You can optionally create a desktop shortcut.
 
@@ -51,7 +51,7 @@ You can always set or change it via **Help → Configure API**.
 
 ## Downloads
 
-- Prebuilt Windows installers (`Notepad_AI_Installer.exe`) are published on the project's GitHub Releases page.
+- Prebuilt Windows installers (`Notepad AI Installer.exe`) are published on the project's GitHub Releases page.
 - Advanced users can still build from source using PyInstaller and Inno Setup if desired.
 
 ## Usage

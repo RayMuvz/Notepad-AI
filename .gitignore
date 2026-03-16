@@ -23,7 +23,7 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Notepad_AI runtime data (kept under %AppData%, but ignore any local copies)
+# Notepad AI runtime data (kept under %AppData%, but ignore any local copies)
 config.json
 session.json
 

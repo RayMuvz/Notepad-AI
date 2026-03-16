@@ -1,10 +1,10 @@
-; Inno Setup script for Notepad_AI
+; Inno Setup script for Notepad AI
 ; Adjust paths as needed before compiling with Inno Setup.
 
-#define MyAppName "Notepad_AI"
+#define MyAppName "Notepad AI"
 #define MyAppVersion "1.0.0"
 #define MyAppPublisher "cri0s"
-#define MyAppExeName "Notepad_AI.exe"
+#define MyAppExeName "Notepad AI.exe"
 
 [Setup]
 AppId={{A3E2A7E9-4E8D-4A4D-9B42-1234567890AB}
@@ -16,7 +16,7 @@ DefaultDirName={autopf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=no
 OutputDir=.
-OutputBaseFilename=Notepad_AI_Installer
+OutputBaseFilename=Notepad AI Installer
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -28,8 +28,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "Create a &desktop shortcut"; GroupDescription: "Additional icons:"; Flags: unchecked
 
 [Files]
-; Source should point to the PyInstaller dist folder containing Notepad_AI.exe
-Source: "dist\Notepad_AI\*"; DestDir: "{app}"; Flags: recursesubdirs createallsubdirs
+; Source should point to the PyInstaller dist folder containing Notepad AI.exe
+Source: "dist\Notepad AI\*"; DestDir: "{app}"; Flags: recursesubdirs createallsubdirs
 
 [Icons]
 ; Start Menu shortcut
