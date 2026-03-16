@@ -1,6 +1,6 @@
 # Notepad_AI
 
-<img src="notepad.ico" alt="Notepad_AI icon" width="128" />
+<img src="Notepad_AI_icon.png" alt="Notepad_AI icon" width="128" />
 
 Notepad_AI is a Windows-style Notepad clone built with **Python** and **PyQt6**, with integrated OpenAI assistance.
 
