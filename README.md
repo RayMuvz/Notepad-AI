@@ -1,8 +1,8 @@
-# Notepad_AI
+# Notepad AI
 
-<img src="Notepad_AI_icon.png" alt="Notepad_AI icon" width="128" />
+<img src="Notepad_AI_icon.png" alt="Notepad AI icon" width="128" />
 
-Notepad_AI is a Windows-style Notepad clone built with **Python** and **PyQt6**, with integrated OpenAI assistance.
+Notepad AI is a Windows-style Notepad clone built with **Python** and **PyQt6**, with integrated OpenAI assistance.
 
 ## Features
 
@@ -56,7 +56,7 @@ You can always set or change it via **Help → Configure API**.
 
 ## Usage
 
-- Launch `Notepad_AI` from the Start Menu, desktop shortcut, or via `python notepad_ai.py`.
+- Launch `Notepad AI` from the Start Menu, desktop shortcut, or via `python notepad_ai.py`.
 - On first run, enter your OpenAI API key when prompted (or later via `Help → Configure API`).
 - Use it like standard Notepad:
   - `File`, `Edit`, and `View` menus + familiar shortcuts (`Ctrl+N`, `Ctrl+O`, `Ctrl+S`, `Ctrl+P`, etc.).

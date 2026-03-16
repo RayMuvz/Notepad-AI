@@ -37,7 +37,7 @@ except ImportError:
     OpenAI = None
 
 
-APP_NAME = "Notepad_AI"
+APP_NAME = "Notepad AI"
 APP_VERSION = "1.0.0"
 
 APPDATA_DIR = Path(os.getenv("APPDATA", "")) / APP_NAME
@@ -559,7 +559,7 @@ class NotepadAIMainWindow(QMainWindow):
         msg = QMessageBox(self)
         msg.setWindowTitle("Configure OpenAI API Key")
         msg.setText(
-            "To use the AI features (Shift+Enter), Notepad_AI needs your OpenAI API key.\n\n"
+            "To use the AI features (Shift+Enter), Notepad AI needs your OpenAI API key.\n\n"
             "You can enter it now or configure it later via Help > Configure API."
         )
         msg.setIcon(QMessageBox.Icon.Information)
@@ -764,7 +764,7 @@ class NotepadAIMainWindow(QMainWindow):
         api_config_action.triggered.connect(self.configure_api_key)
         help_menu.addAction(api_config_action)
 
-        about_action = QAction("&About Notepad_AI", self)
+        about_action = QAction("&About Notepad AI", self)
         about_action.triggered.connect(self.about)
         help_menu.addAction(about_action)
 
@@ -1096,7 +1096,7 @@ class NotepadAIMainWindow(QMainWindow):
         self.apply_theme(dark)
 
     def new_window(self):
-        # Launch a new instance of Notepad_AI
+        # Launch a new instance of Notepad AI
         try:
             import subprocess, sys as _sys
 
@@ -1121,7 +1121,7 @@ class NotepadAIMainWindow(QMainWindow):
         QMessageBox.information(
             self,
             "Page setup",
-            "Page setup is not customizable in this version of Notepad_AI.",
+            "Page setup is not customizable in this version of Notepad AI.",
         )
 
     def search_with_bing(self):
@@ -1239,7 +1239,7 @@ class NotepadAIMainWindow(QMainWindow):
             {
                 "role": "system",
                 "content": (
-                    "You are a helpful AI assistant embedded in a plain text editor called Notepad_AI. "
+                    "You are a helpful AI assistant embedded in a plain text editor called Notepad AI. "
                     "The user is working in a single document; answer concisely in plain natural language "
                     "with no markdown, no bullet symbols (*, -, #, etc.), and no code fences."
                 ),
@@ -1288,8 +1288,8 @@ class NotepadAIMainWindow(QMainWindow):
     def about(self):
         QMessageBox.about(
             self,
-            "About Notepad_AI",
-            f"Notepad_AI\n\nA modern Windows 11-style Notepad clone with integrated OpenAI assistance.\n\nVersion {APP_VERSION}",
+            "About Notepad AI",
+            f"Notepad AI\n\nA modern Windows 11-style Notepad clone with integrated OpenAI assistance.\n\nVersion {APP_VERSION}",
         )
 
     # -------------------- Close handling --------------------
@@ -1382,7 +1382,7 @@ except ImportError:
     OpenAI = None
 
 
-APP_NAME = "Notepad_AI"
+APP_NAME = "Notepad AI"
 ORG_NAME = "YourCompany"
 APP_VERSION = "1.0.0"
 
@@ -1643,7 +1643,7 @@ class NotepadAIMainWindow(QMainWindow):
         msg = QMessageBox(self)
         msg.setWindowTitle("Configure OpenAI API Key")
         msg.setText(
-            "To use the AI features (Shift+Enter), Notepad_AI needs your OpenAI API key.\n\n"
+            "To use the AI features (Shift+Enter), Notepad AI needs your OpenAI API key.\n\n"
             "You can enter it now or configure it later via Help > Configure API."
         )
         msg.setIcon(QMessageBox.Icon.Information)
@@ -1772,7 +1772,7 @@ class NotepadAIMainWindow(QMainWindow):
         api_config_action.triggered.connect(self.configure_api_key)
         help_menu.addAction(api_config_action)
 
-        about_action = QAction("&About Notepad_AI", self)
+        about_action = QAction("&About Notepad AI", self)
         about_action.triggered.connect(self.about)
         help_menu.addAction(about_action)
 
