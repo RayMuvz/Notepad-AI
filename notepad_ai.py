@@ -323,7 +323,9 @@ class NotepadAIMainWindow(QMainWindow):
         self.setWindowTitle(APP_NAME)
         self.resize(900, 600)
 
-        icon_path = Path(__file__).with_name("notepad.ico")
+        # Load window icon both in dev and frozen (PyInstaller) builds.
+        base_dir = Path(getattr(sys, "_MEIPASS", Path(__file__).parent))
+        icon_path = base_dir / "notepad.ico"
         if icon_path.exists():
             self.setWindowIcon(QIcon(str(icon_path)))
 
