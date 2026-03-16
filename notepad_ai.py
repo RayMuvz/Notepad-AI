@@ -581,7 +581,7 @@ class NotepadAIMainWindow(QMainWindow):
         if ok and key:
             self.config["openai_api_key"] = key.strip()
             if "openai_model" not in self.config:
-                self.config["openai_model"] = "gpt-4o"
+                self.config["openai_model"] = "gpt-4.1"
             self.save_config()
             QMessageBox.information(self, "API Key Saved", "API key has been saved.")
 
