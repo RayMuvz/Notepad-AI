@@ -29,7 +29,7 @@ Name: "desktopicon"; Description: "Create a &desktop shortcut"; GroupDescription
 
 [Files]
 ; Source should point to the PyInstaller dist folder containing Notepad AI.exe
-Source: "dist\Notepad AI\*"; DestDir: "{app}"; Flags: recursesubdirs createallsubdirs
+Source: "dist\Notepad_AI\*"; DestDir: "{app}"; Flags: recursesubdirs createallsubdirs
 
 [Icons]
 ; Start Menu shortcut
